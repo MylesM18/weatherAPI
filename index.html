@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head lang="es-us">
+    <meta charset="UTF-8" />
+    <title>Weather Api</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"/>
+      <script src="https://kit.fontawesome.com/6f94c7e0bd.js" crossorigin="anonymous"></script>
+  </head>
+
+
+  <body>
+    
+    <!--The header-->
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4">Weather</h1>
+      </div>
+    </div>
+<div class="container">
+<div class="row">
+      <div class="col-3">
+        <div class="input-group">
+          <input type="text" class="form-control" placeholder="Where?""
+          id='searchInput' aria-label="Recipient's username"
+          aria-describedby="button-addon2">
+          <div class="input-group-append">
+            <button
+              class="btn btn-outline-secondary"
+              type="button"
+              id="button-submit"
+            >
+              Submit
+            </button>
+          </div>
+        </div>
+        <div id="btnDiv"></div>
+      </div>
+      <div class="col-9">
+        <div class="jumbotron jumbotron-fluid" id="currentWeather"></div>
+      </div>
+    </div>
+</div>
+    
+
+
+
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>

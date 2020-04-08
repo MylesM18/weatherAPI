@@ -1,0 +1,27 @@
+.display-4{
+    text-align: center;
+}
+
+/* .mb-3{
+    padding: 40px;
+    max-width: 600px;
+    margin-left: 25%;
+    
+} */
+
+/* .api-info{
+    position: absolute;
+    left: 60%;
+    bottom: 40px;
+} */
+/* 
+.user-searched{
+    position: relative;
+    top: 30px;
+    left: 30px;
+} */
+
+.search_Btn {
+    width: 70%;
+    margin:auto;
+}
